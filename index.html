@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone | Premium Mobile Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+    <p>🚚 Free delivery on orders over $500</p>
+    <div>
+        <span>Support</span>
+        <span>Track Order</span>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+    <a href="#" class="logo">
+        <span><i class="fa-solid fa-mobile-screen-button"></i></span>
+        Tech<span>Zone</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#products">Phones</a>
+        <a href="#categories">Categories</a>
+        <a href="#deals">Deals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+
+        <button class="icon-btn" id="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <button class="icon-btn cart-btn" id="cartBtn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cartCount">0</span>
+        </button>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+<!-- SEARCH -->
+<div class="search-box" id="searchBox">
+    <input type="text" id="searchInput" placeholder="Search smartphones...">
+    <button>
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+</div>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="badge">
+            <i class="fa-solid fa-bolt"></i>
+            New Collection 2026
+        </div>
+
+        <h1>
+            Upgrade Your
+            <span>Digital Life.</span>
+        </h1>
+
+        <p>
+            Discover the latest smartphones with powerful performance,
+            stunning cameras and next-generation technology.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#products" class="primary-btn">
+                Shop Smartphones
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#deals" class="secondary-btn">
+                View Deals
+            </a>
+        </div>
+
+        <div class="hero-stats">
+            <div>
+                <strong>50K+</strong>
+                <small>Happy Customers</small>
+            </div>
+
+            <div>
+                <strong>500+</strong>
+                <small>Products</small>
+            </div>
+
+            <div>
+                <strong>4.9/5</strong>
+                <small>Customer Rating</small>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hero-phone">
+
+        <div class="glow"></div>
+
+        <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=900&q=85"
+             alt="Premium Smartphone">
+
+        <div class="floating-card card-one">
+            <i class="fa-solid fa-star"></i>
+            <div>
+                <strong>4.9 Rating</strong>
+                <small>Excellent choice</small>
+            </div>
+        </div>
+
+        <div class="floating-card card-two">
+            <i class="fa-solid fa-truck-fast"></i>
+            <div>
+                <strong>Fast Delivery</strong>
+                <small>Across Pakistan</small>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BRANDS -->
+<section class="brands">
+
+    <p>Trusted brands we sell</p>
+
+    <div class="brand-list">
+        <span>APPLE</span>
+        <span>SAMSUNG</span>
+        <span>Google</span>
+        <span>OnePlus</span>
+        <span>XIAOMI</span>
+        <span>vivo</span>
+    </div>
+
+</section>
+
+
+<!-- CATEGORIES -->
+<section class="section" id="categories">
+
+    <div class="section-heading">
+        <div>
+            <span class="small-title">EXPLORE</span>
+            <h2>Shop by Category</h2>
+        </div>
+
+        <p>Find the perfect device for your lifestyle.</p>
+    </div>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <div class="category-icon blue">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <h3>Smartphones</h3>
+            <p>120+ Products</p>
+            <a href="#products">Explore →</a>
+        </div>
+
+        <div class="category-card">
+            <div class="category-icon purple">
+                <i class="fa-solid fa-tablet-screen-button"></i>
+            </div>
+            <h3>Tablets</h3>
+            <p>45+ Products</p>
+            <a href="#products">Explore →</a>
+        </div>
+
+        <div class="category-card">
+            <div class="category-icon green">
+                <i class="fa-solid fa-headphones"></i>
+            </div>
+            <h3>Accessories</h3>
+            <p>180+ Products</p>
+            <a href="#products">Explore →</a>
+        </div>
+
+        <div class="category-card">
+            <div class="category-icon orange">
+                <i class="fa-solid fa-clock"></i>
+            </div>
+            <h3>Smart Watches</h3>
+            <p>60+ Products</p>
+            <a href="#products">Explore →</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCTS -->
+<section class="section products-section" id="products">
+
+    <div class="section-heading">
+        <div>
+            <span class="small-title">OUR COLLECTION</span>
+            <h2>Featured Smartphones</h2>
+        </div>
+
+        <a href="#" class="view-all">View All Products →</a>
+    </div>
+
+    <div class="filter-buttons">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="apple">Apple</button>
+        <button class="filter" data-filter="samsung">Samsung</button>
+        <button class="filter" data-filter="google">Google</button>
+        <button class="filter" data-filter="oneplus">OnePlus</button>
+    </div>
+
+
+    <div class="product-grid">
+
+        <!-- PRODUCT 1 -->
+        <div class="product-card" data-category="apple">
+
+            <div class="product-image">
+
+                <span class="sale-badge">NEW</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <img src="https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=85"
+                     alt="iPhone">
+
+            </div>
+
+            <div class="product-info">
+
+                <span class="brand-name">APPLE</span>
+
+                <h3>iPhone 16 Pro Max</h3>
+
+                <div class="rating">
+                    ★★★★★ <span>(128)</span>
+                </div>
+
+                <div class="price-row">
+                    <strong>$1,199</strong>
+                    <del>$1,299</del>
+                </div>
+
+                <button class="add-cart"
+                        data-name="iPhone 16 Pro Max"
+                        data-price="1199">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+        <div class="product-card" data-category="samsung">
+
+            <div class="product-image">
+
+                <span class="sale-badge hot">HOT</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=700&q=85"
+                     alt="Samsung Galaxy">
+
+            </div>
+
+            <div class="product-info">
+
+                <span class="brand-name">SAMSUNG</span>
+
+                <h3>Galaxy S25 Ultra</h3>
+
+                <div class="rating">
+                    ★★★★★ <span>(96)</span>
+                </div>
+
+                <div class="price-row">
+                    <strong>$1,099</strong>
+                    <del>$1,249</del>
+                </div>
+
+                <button class="add-cart"
+                        data-name="Samsung Galaxy S25 Ultra"
+                        data-price="1099">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 3 -->
+        <div class="product-card" data-category="google">
+
+            <div class="product-image">
+
+                <span class="sale-badge">NEW</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=85"
+                     alt="Google Pixel">
+
+            </div>
+
+            <div class="product-info">
+
+                <span class="brand-name">GOOGLE</span>
+
+                <h3>Pixel 9 Pro</h3>
+
+                <div class="rating">
+                    ★★★★★ <span>(84)</span>
+                </div>
+
+                <div class="price-row">
+                    <strong>$899</strong>
+                    <del>$999</del>
+                </div>
+
+                <button class="add-cart"
+                        data-name="Google Pixel 9 Pro"
+                        data-price="899">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 4 -->
+        <div class="product-card" data-category="oneplus">
+
+            <div class="product-image">
+
+                <span class="sale-badge hot">HOT</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <img src="https://images.unsplash.com/photo-1592286927505-2fd0e2e6d8c7?auto=format&fit=crop&w=700&q=85"
+                     alt="OnePlus Phone">
+
+            </div>
+
+            <div class="product-info">
+
+                <span class="brand-name">ONEPLUS</span>
+
+                <h3>OnePlus 13</h3>
+
+                <div class="rating">
+                    ★★★★★ <span>(72)</span>
+                </div>
+
+                <div class="price-row">
+                    <strong>$749</strong>
+                    <del>$849</del>
+                </div>
+
+                <button class="add-cart"
+                        data-name="OnePlus 13"
+                        data-price="749">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DEAL -->
+<section class="deal-section" id="deals">
+
+    <div class="deal-content">
+
+        <span class="small-title">LIMITED TIME OFFER</span>
+
+        <h2>Summer Tech Sale</h2>
+
+        <p>
+            Get up to <strong>30% OFF</strong> on selected smartphones.
+            Don't miss out!
+        </p>
+
+        <div class="countdown">
+
+            <div>
+                <strong id="days">02</strong>
+                <span>Days</span>
+            </div>
+
+            <div>
+                <strong id="hours">18</strong>
+                <span>Hours</span>
+            </div>
+
+            <div>
+                <strong id="minutes">45</strong>
+                <span>Minutes</span>
+            </div>
+
+            <div>
+                <strong id="seconds">30</strong>
+                <span>Seconds</span>
+            </div>
+
+        </div>
+
+        <a href="#products" class="primary-btn">
+            Shop the Sale
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+    <div class="deal-image">
+
+        <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=1000&q=85"
+             alt="Smartphone Deal">
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES -->
+<section class="features">
+
+    <div class="feature">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div>
+            <h3>Free Shipping</h3>
+            <p>On orders over $500</p>
+        </div>
+    </div>
+
+    <div class="feature">
+        <i class="fa-solid fa-shield-halved"></i>
+        <div>
+            <h3>Secure Payment</h3>
+            <p>100% secure checkout</p>
+        </div>
+    </div>
+
+    <div class="feature">
+        <i class="fa-solid fa-rotate-left"></i>
+        <div>
+            <h3>Easy Returns</h3>
+            <p>30-day return policy</p>
+        </div>
+    </div>
+
+    <div class="feature">
+        <i class="fa-solid fa-headset"></i>
+        <div>
+            <h3>24/7 Support</h3>
+            <p>We're here to help</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+
+    <div>
+        <span class="small-title">STAY UPDATED</span>
+        <h2>Get the latest tech news</h2>
+        <p>Subscribe for exclusive deals and new product alerts.</p>
+    </div>
+
+    <form id="newsletterForm">
+
+        <input type="email"
+               placeholder="Enter your email address"
+               required>
+
+        <button type="submit">
+            Subscribe
+            <i class="fa-solid fa-paper-plane"></i>
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer id="contact">
+
+    <div class="footer-main">
+
+        <div class="footer-about">
+
+            <a href="#" class="logo">
+                <span><i class="fa-solid fa-mobile-screen-button"></i></span>
+                Tech<span>Zone</span>
+            </a>
+
+            <p>
+                Your trusted destination for the latest smartphones,
+                accessories and smart technology.
+            </p>
+
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+            <h3>Shop</h3>
+            <a href="#products">Smartphones</a>
+            <a href="#products">Tablets</a>
+            <a href="#products">Accessories</a>
+            <a href="#products">Smart Watches</a>
+        </div>
+
+
+        <div class="footer-column">
+            <h3>Company</h3>
+            <a href="#">About Us</a>
+            <a href="#">Our Stores</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
+        </div>
+
+
+        <div class="footer-column">
+            <h3>Help</h3>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">Warranty</a>
+            <a href="#">FAQs</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 TechZone. All Rights Reserved.</p>
+
+        <div>
+            <span>Privacy Policy</span>
+            <span>Terms & Conditions</span>
+        </div>
+    </div>
+
+</footer>
+
+
+<!-- CART SIDEBAR -->
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<div class="cart-sidebar" id="cartSidebar">
+
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+
+        <button id="closeCart">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+        <p class="empty-cart">Your cart is empty.</p>
+    </div>
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+            <span>Total</span>
+            <strong id="cartTotal">$0</strong>
+        </div>
+
+        <button class="checkout-btn">
+            Proceed to Checkout
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
